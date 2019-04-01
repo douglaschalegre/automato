@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+ 
+</head>
+<body>
+    <div class="info">
+        <ul> Como utilizar: 
+            <li>δ: O formato da entrada deverá ser no seguinte formato: posição atual, letra, posição após a leitura. Todos separados somente por vírgula, segue exemplo: q0,a,qf</li>
+            <li>Q0: Somente uma entrada é possível então basta colocar o nome da posição inicial.</li>
+            <li>QF: Deverá ser preenchido as posições finais, todas separadas por somente a vírgula.</li>
+            <li>W (Palavra a ser computada): a palavra deverá estar escrita toda junta e é possível adicionar mais de uma palavra para ser testada por vez</li>
+        </ul>
+    </div>
+    <div class="data">
+        <ul>
+            <li>
+                <input id="δ" placeholder="q0,a,q1">
+                <button id="btnδ">adicionar δ</button>
+            </li>
+            
+            <li><input id="q0" placeholder="q0"></li>
+            <li>
+                <input id="qf" placeholder="qf1">
+                <button id="btnqf">adicionar qf</button>
+            </li>
+            <li>
+                <input id="w" placeholder="aaabb">
+                <button id="btnw">adicionar palavra</button>
+            </li>
+            <button id="btnStart">Iniciar</button>
+        </ul>
+        
+    </div>
+</body>
+<script src="automato.js"></script>
+</html>
